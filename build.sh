@@ -15,6 +15,9 @@ display_environment_versions() {
     echo "* Git:"
     git --version
     echo
+    echo "* Python:"
+    python --version
+    echo
     echo "* Visual Studio Code:"
     code --version
 }

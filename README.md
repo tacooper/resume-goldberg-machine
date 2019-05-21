@@ -7,7 +7,9 @@ systems. Its intention is to build various modules and combine the generated out
 printable Markdown format. Each module is written using a different language/framework in order to illustrate my skills
 related to the specific experience described (when applicable).
 
-## Diagram
+### Modules
+
+### Diagram
 
 ## Environment Setup
 
@@ -16,6 +18,9 @@ $ ./build.sh -e
 
 * Git:
 git version 2.21.0.windows.1
+
+* Python:
+Python 3.7.3
 
 * Visual Studio Code:
 1.34.0
