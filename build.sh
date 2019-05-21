@@ -12,7 +12,11 @@ display_help() {
 
 display_environment_versions() {
     echo
+    echo "* Git:"
     git --version
+    echo
+    echo "* Visual Studio Code:"
+    code --version
 }
 
 while getopts ":ehv" ARGS; do

@@ -14,7 +14,13 @@ related to the specific experience described (when applicable).
 ```
 $ ./build.sh -e
 
+* Git:
 git version 2.21.0.windows.1
+
+* Visual Studio Code:
+1.34.0
+a622c65b2c713c890fcf4fbf07cf34049d5fe758
+x64
 ```
 
 ## Build Instructions
