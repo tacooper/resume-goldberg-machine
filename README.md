@@ -28,8 +28,8 @@ x64
 ```
 $ ./build.sh -h
 
-Usage: ./build.sh -[ehv]
-Options:
+usage: ./build.sh [options]
+options:
   -e  Print versions for environment tools.
   -h  Print this usage for help.
   -v  Enable verbose output.

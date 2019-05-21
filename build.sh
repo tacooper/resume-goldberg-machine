@@ -3,8 +3,8 @@ set -eu
 
 display_help() {
     echo
-    echo "Usage: ${0} -[ehv]"
-    echo "Options:"
+    echo "usage: ${0} [options]"
+    echo "options:"
     echo "  -e  Print versions for environment tools."
     echo "  -h  Print this usage for help."
     echo "  -v  Enable verbose output."
@@ -19,8 +19,9 @@ display_environment_versions() {
     code --version
 }
 
-while getopts ":ehv" ARGS; do
-    case ${ARGS} in
+# handle each option specified on command line
+while getopts ":ehv" FLAG; do
+    case ${FLAG} in
         v)
             # enable verbose output
             set -x
@@ -30,13 +31,18 @@ while getopts ":ehv" ARGS; do
             ;;
         h)
             display_help
-            exit 1
             ;;
-        \? | *)
-            echo "Invalid option: -${OPTARG}" 1>&2
+        *)
+            display_help
             exit 1
             ;;
     esac
 done
+
+# ensure at least one option exists
+if [[ $# -eq 0 ]]; then
+    echo "Specify at least one option!"
+    exit 1
+fi
 
 exit 0
