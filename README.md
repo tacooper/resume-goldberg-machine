@@ -11,13 +11,20 @@ related to the specific experience described (when applicable).
 
 ## Environment Setup
 
+```
+$ ./build.sh -e
+
+git version 2.21.0.windows.1
+```
+
 ## Build Instructions
 
 ```
 $ ./build.sh -h
 
-Usage: ./build.sh -[hv]
+Usage: ./build.sh -[ehv]
 Options:
+  -e  Print versions for environment tools.
   -h  Print this usage for help.
   -v  Enable verbose output.
 ```

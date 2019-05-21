@@ -3,25 +3,33 @@ set -eu
 
 display_help() {
     echo
-    echo "Usage: ${0} -[hv]"
+    echo "Usage: ${0} -[ehv]"
     echo "Options:"
+    echo "  -e  Print versions for environment tools."
     echo "  -h  Print this usage for help."
     echo "  -v  Enable verbose output."
 }
 
-while getopts ":vh" ARGS; do
+display_environment_versions() {
+    echo
+    git --version
+}
+
+while getopts ":ehv" ARGS; do
     case ${ARGS} in
         v)
             # enable verbose output
             set -x
             ;;
-        \?)
-            echo "Invalid option: -${OPTARG}" 1>&2
+        e)
+            display_environment_versions
+            ;;
+        h)
+            display_help
             exit 1
             ;;
-        h | *)
-            # display help text
-            display_help
+        \? | *)
+            echo "Invalid option: -${OPTARG}" 1>&2
             exit 1
             ;;
     esac
