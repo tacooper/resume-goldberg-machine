@@ -16,10 +16,11 @@ display_environment_versions() {
     git --version
     echo
     echo "* Python:"
-    python --version
+    python3 --version
     echo
     echo "* Visual Studio Code:"
     code --version
+    echo
 }
 
 # handle each option specified on command line

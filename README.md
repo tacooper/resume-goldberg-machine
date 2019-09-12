@@ -17,14 +17,14 @@ related to the specific experience described (when applicable).
 $ ./build.sh -e
 
 * Git:
-git version 2.21.0.windows.1
+git version 2.7.4
 
 * Python:
-Python 3.7.3
+Python 3.5.2
 
 * Visual Studio Code:
-1.34.0
-a622c65b2c713c890fcf4fbf07cf34049d5fe758
+1.38.0
+3db7e09f3b61f915d03bbfa58e258d6eee843f35
 x64
 ```
 

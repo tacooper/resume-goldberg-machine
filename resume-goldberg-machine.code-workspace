@@ -1,0 +1,14 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "editor.detectIndentation": false,
+        "editor.renderWhitespace": "all",
+        "editor.rulers": [ 120 ],
+        "editor.wordWrapColumn": 120,
+        "files.trimTrailingWhitespace": true
+    }
+}
