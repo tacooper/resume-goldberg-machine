@@ -36,6 +36,7 @@ $ ./build.sh -h
 usage: ./build.sh [options]
 options:
   -e  Print versions for environment tools.
+  -g  Generate resume.
   -h  Print this usage for help.
   -v  Enable verbose output.
 ```
