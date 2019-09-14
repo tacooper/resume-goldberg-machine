@@ -1,5 +1,8 @@
 # Résumé Goldberg Machine
 
+[The Résumé](https://github.com/tacooper/resume-goldberg-machine/blob/master/Tom_Cooper_resume.md) <br>
+(generated on 9/14/2019)
+
 ## Description
 
 This project mimics a [Rube Goldberg machine](https://en.wikipedia.org/wiki/Rube_Goldberg_machine) using code and build
@@ -40,9 +43,3 @@ options:
   -h  Print this usage for help.
   -v  Enable verbose output.
 ```
-
-## Versions
-
-| Version | Date     | Notes                    |
-| ------- | -------- | ------------------------ |
-| 0.0.0   | 05/19/19 | Created initial project. |
