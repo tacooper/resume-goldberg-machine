@@ -1,7 +1,7 @@
 # Résumé Goldberg Machine
 
 [The Résumé](https://github.com/tacooper/resume-goldberg-machine/blob/master/Tom_Cooper_resume.md) <br>
-(generated on 9/17/2019)
+(generated on 09/17/2019)
 
 ## Description
 
