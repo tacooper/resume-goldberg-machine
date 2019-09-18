@@ -40,6 +40,7 @@ generate_resume() {
     output_to_file "Location: Baltimore, MD, USA <br>"
     output_to_file "Email: tacooper@vt.edu <br>"
     output_to_file "Website: https://github.com/tacooper <br>"
+    output_to_file "Education: Virginia Tech, Electrical Engineering (B.S. 2010, M.S. 2012) <br>"
 
     # generate and append date to resume file
     DATE=$(date "+%m/%d/%Y")

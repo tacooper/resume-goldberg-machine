@@ -5,6 +5,7 @@
 Location: Baltimore, MD, USA <br>
 Email: tacooper@vt.edu <br>
 Website: https://github.com/tacooper <br>
+Education: Virginia Tech, Electrical Engineering (B.S. 2010, M.S. 2012) <br>
 
 ---
 

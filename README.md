@@ -1,6 +1,6 @@
 # Résumé Goldberg Machine
 
-[The Résumé](https://github.com/tacooper/resume-goldberg-machine/blob/master/Tom_Cooper_resume.md) <br>
+[My Résumé](https://github.com/tacooper/resume-goldberg-machine/blob/master/Tom_Cooper_resume.md) <br>
 (generated on 09/17/2019)
 
 ## Description
@@ -26,8 +26,8 @@ git version 2.7.4
 Python 3.5.2
 
 * Visual Studio Code:
-1.38.0
-3db7e09f3b61f915d03bbfa58e258d6eee843f35
+1.38.1
+b37e54c98e1a74ba89e03073e5a3761284e3ffb0
 x64
 ```
 
