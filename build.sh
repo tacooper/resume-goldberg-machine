@@ -33,16 +33,19 @@ generate_resume() {
 
     # append title section to output file
     output_to_file "# Tom Cooper"
-    output_to_file "Location: Baltimore, MD, USA"
-    output_to_file "Email: tacooper@vt.edu"
-    output_to_file "Website: https://github.com/tacooper"
+    output_to_file
+    output_to_file "## About"
+    output_to_file
+    output_to_file "Location: Baltimore, MD, USA <br>"
+    output_to_file "Email: tacooper@vt.edu <br>"
+    output_to_file "Website: https://github.com/tacooper <br>"
 }
 
 output_to_file() {
     if [[ $# -eq 0 ]]; then
-        echo "<br>" >> ${RESUME_FILE}
+        echo >> ${RESUME_FILE}
     else
-        echo "$1 <br>" >> ${RESUME_FILE}
+        echo "$1" >> ${RESUME_FILE}
     fi
 }
 
