@@ -42,6 +42,18 @@ generate_resume() {
     output_to_file "Website: https://github.com/tacooper <br>"
     output_to_file "Education: Virginia Tech, Electrical Engineering (B.S. 2010, M.S. 2012) <br>"
 
+    # append projects section to resume file
+    output_to_file
+    output_to_file "## Projects"
+    output_to_file
+    output_to_file "TODO"
+
+    # append skills section to resume file
+    output_to_file
+    output_to_file "## Skills"
+    output_to_file
+    output_to_file "TODO"
+
     # generate and append date to resume file
     DATE=$(date "+%m/%d/%Y")
     output_to_file
