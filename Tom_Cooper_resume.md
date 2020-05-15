@@ -13,7 +13,13 @@ TODO
 
 ## Skills
 
-TODO
+* C/C++
+* Python
+* Java
+* Android
+* Bash Shell
+* Git
+* Matlab
 
 ---
 

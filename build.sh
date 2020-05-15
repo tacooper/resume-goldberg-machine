@@ -48,11 +48,12 @@ generate_resume() {
     output_to_file
     output_to_file "TODO"
 
-    # append skills section to resume file
+    # generate and append skills section to resume file
     output_to_file
     output_to_file "## Skills"
     output_to_file
-    output_to_file "TODO"
+    SKILLS=$(python3 generate_skills.py)
+    output_to_file "${SKILLS}"
 
     # generate and append date to resume file
     DATE=$(date "+%m/%d/%Y")
