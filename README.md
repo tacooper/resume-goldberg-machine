@@ -37,3 +37,7 @@ Python 3.5.2
 5763d909d5f12fe19f215cbfdd29a91c0fa9208a
 x64
 ```
+
+## Credits
+
+Proficiency bars were manually generated [here](http://scripts.cac.psu.edu/staff/l/n/lnm105/progressbar.html).
