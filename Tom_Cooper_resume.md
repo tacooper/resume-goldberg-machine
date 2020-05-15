@@ -13,13 +13,15 @@ TODO
 
 ## Skills
 
-* C/C++
-* Python
-* Java
-* Android
-* Bash Shell
-* Git
-* Matlab
+Name | Proficiency
+--- | ---
+C/C++ | 
+Python | 
+Java | 
+Android | 
+Bash Shell | 
+Git | 
+Matlab | 
 
 ---
 

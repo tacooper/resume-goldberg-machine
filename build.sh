@@ -52,6 +52,8 @@ generate_resume() {
     output_to_file
     output_to_file "## Skills"
     output_to_file
+    output_to_file "Name | Proficiency"
+    output_to_file "--- | ---"
     SKILLS=$(python3 generate_skills.py)
     output_to_file "${SKILLS}"
 
