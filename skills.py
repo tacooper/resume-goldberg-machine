@@ -8,10 +8,10 @@ class TableEntry():
         self.proficiency = proficiency
 
 class Skill(enum.Enum):
-    C_CPP = TableEntry("C/C++", "")
-    PYTHON = TableEntry("Python", "")
-    JAVA = TableEntry("Java", "")
-    ANDROID = TableEntry("Android", "")
-    BASH_SHELL = TableEntry("Bash Shell", "")
-    GIT = TableEntry("Git", "")
-    MATLAB = TableEntry("Matlab", "")
+    C_CPP = TableEntry("C/C++", 90)
+    PYTHON = TableEntry("Python", 90)
+    JAVA = TableEntry("Java", 90)
+    BASH_SHELL = TableEntry("Bash Shell", 70)
+    GIT = TableEntry("Git", 70)
+    ANDROID = TableEntry("Android", 50)
+    MATLAB = TableEntry("Matlab", 10)
