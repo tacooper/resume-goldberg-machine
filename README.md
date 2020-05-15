@@ -8,9 +8,18 @@
 This project mimics a [Rube Goldberg machine](https://en.wikipedia.org/wiki/Rube_Goldberg_machine) using shell and
 Python scripts to generate and combine content into my comprehensive résumé in printable Markdown format.
 
-### Modules
+## Build Instructions
 
-### Diagram
+```
+$ ./build.sh -h
+
+usage: ./build.sh [options]
+options:
+  -e  Print versions for environment tools.
+  -g  Generate resume.
+  -h  Print this usage for help.
+  -v  Enable verbose output.
+```
 
 ## Environment Setup
 
@@ -27,17 +36,4 @@ Python 3.5.2
 1.45.1
 5763d909d5f12fe19f215cbfdd29a91c0fa9208a
 x64
-```
-
-## Build Instructions
-
-```
-$ ./build.sh -h
-
-usage: ./build.sh [options]
-options:
-  -e  Print versions for environment tools.
-  -g  Generate resume.
-  -h  Print this usage for help.
-  -v  Enable verbose output.
 ```
