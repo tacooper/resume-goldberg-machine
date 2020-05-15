@@ -15,13 +15,13 @@ TODO
 
 Name | Proficiency
 --- | ---
-C/C++ | ![90%](proficiency/progress-overall-90.png)
-Python | ![90%](proficiency/progress-overall-90.png)
-Java | ![90%](proficiency/progress-overall-90.png)
-Bash Shell | ![70%](proficiency/progress-overall-70.png)
-Git | ![70%](proficiency/progress-overall-70.png)
-Android | ![50%](proficiency/progress-overall-50.png)
-Matlab | ![10%](proficiency/progress-overall-10.png)
+C/C++ | [![90%](proficiency/progress-overall-90.png)](#)
+Python | [![90%](proficiency/progress-overall-90.png)](#)
+Java | [![90%](proficiency/progress-overall-90.png)](#)
+Bash Shell | [![70%](proficiency/progress-overall-70.png)](#)
+Git | [![70%](proficiency/progress-overall-70.png)](#)
+Android | [![50%](proficiency/progress-overall-50.png)](#)
+Matlab | [![10%](proficiency/progress-overall-10.png)](#)
 
 ---
 
