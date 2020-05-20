@@ -2,6 +2,7 @@
 set -eu
 
 # define constants
+PYTHON="python3"
 README_FILE="README.md"
 RESUME_FILE="Tom_Cooper_resume.md"
 
@@ -21,7 +22,7 @@ display_environment_versions() {
     git --version
     echo
     echo "* Python:"
-    python3 --version
+    ${PYTHON} --version
     echo
     echo "* Visual Studio Code:"
     code --version
@@ -46,7 +47,7 @@ generate_resume() {
     output_to_file
     output_to_file "## Projects"
     output_to_file
-    PROJECTS=$(python3 generate_projects.py)
+    PROJECTS=$(${PYTHON} generate_projects.py)
     output_to_file "${PROJECTS}"
 
     # generate and append skills section to resume file
@@ -55,14 +56,14 @@ generate_resume() {
     output_to_file
     output_to_file "Name | Proficiency"
     output_to_file "--- | ---"
-    SKILLS=$(python3 generate_skills.py)
+    SKILLS=$(${PYTHON} generate_skills.py)
     output_to_file "${SKILLS}"
 
     # generate and append tools section to resume file
     output_to_file
     output_to_file "## Miscellaneous Tools"
     output_to_file
-    TOOLS=$(python3 generate_tools.py)
+    TOOLS=$(${PYTHON} generate_tools.py)
     output_to_file "${TOOLS}"
 
     # generate and append date to resume file
