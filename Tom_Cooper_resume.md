@@ -9,7 +9,7 @@ Education: Virginia Tech, Electrical Engineering (B.S. 2010, M.S. 2012) <br>
 
 ## Projects
 
-TODO
+* TODO
 
 ## Skill Ratings
 
