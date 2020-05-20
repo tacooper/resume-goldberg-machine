@@ -57,6 +57,13 @@ generate_resume() {
     SKILLS=$(python3 generate_skills.py)
     output_to_file "${SKILLS}"
 
+    # generate and append tools section to resume file
+    output_to_file
+    output_to_file "## Miscellaneous Tools"
+    output_to_file
+    TOOLS=$(python3 generate_tools.py)
+    output_to_file "${TOOLS}"
+
     # generate and append date to resume file
     DATE=$(date "+%m/%d/%Y")
     output_to_file
