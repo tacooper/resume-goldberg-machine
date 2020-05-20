@@ -32,10 +32,10 @@ generate_resume() {
     # clean resume file
     rm -f ${RESUME_FILE}
 
-    # append title section to resume file
+    # append title and about section to resume file
     output_to_file "# Tom Cooper"
     output_to_file
-    output_to_file "## About"
+    output_to_file "## About Me"
     output_to_file
     output_to_file "Location: Baltimore, MD, USA <br>"
     output_to_file "Email: tacooper@vt.edu <br>"
@@ -50,7 +50,7 @@ generate_resume() {
 
     # generate and append skills section to resume file
     output_to_file
-    output_to_file "## Skills"
+    output_to_file "## Skill Ratings"
     output_to_file
     output_to_file "Name | Proficiency"
     output_to_file "--- | ---"
