@@ -42,11 +42,12 @@ generate_resume() {
     output_to_file "Website: https://github.com/tacooper <br>"
     output_to_file "Education: Virginia Tech, Electrical Engineering (B.S. 2010, M.S. 2012) <br>"
 
-    # append projects section to resume file
+    # generate and append projects section to resume file
     output_to_file
     output_to_file "## Projects"
     output_to_file
-    output_to_file "TODO"
+    PROJECTS=$(python3 generate_projects.py)
+    output_to_file "${PROJECTS}"
 
     # generate and append skills section to resume file
     output_to_file
