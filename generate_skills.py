@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from skills import Skill
+from data.skills import Skill
 
 def main():
     # display each skill as entry in table
