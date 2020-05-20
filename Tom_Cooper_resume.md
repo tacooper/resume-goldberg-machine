@@ -22,6 +22,7 @@ C++ | [![70%](proficiency/progress-overall-70.png)](#Skills)
 Bash Shell | [![70%](proficiency/progress-overall-70.png)](#Skills)
 Git | [![70%](proficiency/progress-overall-70.png)](#Skills)
 Android | [![50%](proficiency/progress-overall-50.png)](#Skills)
+C# | [![50%](proficiency/progress-overall-50.png)](#Skills)
 Matlab | [![10%](proficiency/progress-overall-10.png)](#Skills)
 
 ---
