@@ -45,7 +45,7 @@ generate_resume() {
 
     # generate and append projects section to resume file
     output_to_file
-    output_to_file "## Projects"
+    output_to_file "## Software Projects"
     output_to_file
     PROJECTS=$(${PYTHON} generate_projects.py)
     output_to_file "${PROJECTS}"
